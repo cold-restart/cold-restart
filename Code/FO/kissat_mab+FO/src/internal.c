@@ -38,7 +38,7 @@ kissat_init(void)
   solver->scinc = 1.0;
   solver->first_reducible = INVALID_REF;
   solver->last_irredundant = INVALID_REF;
-  solver->shuffle_limit = 0;
+  solver->shuffle_limit = GET_OPTION(shuffle);
   solver->nconflict = 0;
   solver->nassign = 0;
   // CHB

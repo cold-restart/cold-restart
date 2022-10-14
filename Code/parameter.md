@@ -6,8 +6,8 @@ The parameters set for each solver are listed as follows:
 ## FO
 #### sc20
 kissat_mab: shuffle=800000
-cadical: reset_intv=800000
-maple: reset=800000
+cadical: reset_intv=1000000
+maple: reset=1000000
 #### sc21
 kissat_mab: shuffle=400000
 cadical: reset_intv=800000
@@ -27,7 +27,7 @@ maple: reset=1000000
 ## FC
 #### sc20 & sc21
 kissat_mab: shuffle=700000
-cadical: reset_intv=400000
+cadical: reset_intv=600000
 maple: reset=1000000
 
 ## Others (best version)

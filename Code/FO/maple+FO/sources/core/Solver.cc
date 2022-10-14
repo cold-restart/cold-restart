@@ -88,7 +88,7 @@ Solver::Solver() :
     // Parameters (user settable):
     //
     nconflict        (0)
-  , shuffle_limit    (opt_shuffle_limit)
+  , shuffle_limit    (0)
   , drup_file        (NULL)
   , verbosity        (0)
   , step_size        (opt_step_size)
